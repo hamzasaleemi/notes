@@ -1,0 +1,53 @@
+Object Oriented Programming
+
+- Class
+    class: Blueprint of an object.
+    final: The final keyword can be used to prevent class inheritance.
+    abstract: An abstract class is a class that contains at least one abstract method. An abstract method is a method that is declared, but not implemented in the code. Method can be protected or public.
+        The child class method must be defined with the same name and it redeclares the parent abstract method
+        The child class method must be defined with the same or a less restricted access modifier
+        The number of required arguments must be the same. However, the child class may have optional arguments in addition
+
+- Object
+    Instance of a Class. Have properties (attributes) and behaviors (functions).
+
+- Access Modifiers
+    public: can be accessed from anywhere.
+    protected: can be accessed within the class and the child classes.
+    private: can only be accessed within the class.
+
+- Constructor
+    __construct(): method called when object is created
+
+- Destructor
+    __destruct: method called when object is destroyed or script ends
+
+- Trait:
+    trait: Traits are used to declare methods and/or properties that can be used in multiple classes. Traits can have methods and abstract methods that can be used in multiple classes, and the methods can have any access modifier.
+
+- Inheritance
+    extends: When a class derives from another class
+    Multiple Inheritance: Can be done by using traits or composition (Having class objects as properties but ensure dependency injection to fix tight coupling).
+
+- Method Overriding
+    Inherited methods can be overridden by redefining the methods (use the same name) in the child class.
+    final: The final keyword can be used to prevent method overriding.
+
+- Interfaces
+    Interfaces allow you to specify what methods a class should implement.
+    Polymorphism: When one or more classes use the same interface. Having same method name with different functionalities.
+    Abstraction: Showing only important details and hiding unnecessary things from user.
+
+Encapsulation:
+    exposing only necessary information using public access modifier.
+    hiding sensitive details using protected and private access modifier.
+
+- Static Methods
+    static: Static methods can be called directly - without creating an instance of the class first.
+    self: To access static method in the same class.
+    parent: To access protected static method from child.
+
+- Static Properties
+    static: Static properties can be called directly - without creating an instance of a class.
+    self: To access static property in the same class.
+    parent: To access static property in the child class.
