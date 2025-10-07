@@ -53,3 +53,21 @@ Undo Commands:
 3. git reset HEAD~<count>: Go back in commits stack count times. Like if you commited something which you want to remove then use git reset HEAD~1 to undo commit. You will still have the changes as unstaged files.
 4. git log: Check previous commits.
 5. git reset <commit hash>: Go back to a specific commit.
+
+GitFlow Branches:
+1. main
+2. develop
+3. feature/name
+4. test/name
+5. docs/name
+6. release/1.0.0
+7. bug/name
+8. hotfix/name
+
+GitFlow:
+1. We create develop from main branch.
+2. Now we create feature/test/docs branch from develop.
+3. After completing feature we merge it to develop.
+4. Then we create release branch from develop.
+5. Then we create bug branch from release and finally that final release is merged to develop and main.
+6. We create hotfix from main and fix the bug and then merge it with main and develop.
