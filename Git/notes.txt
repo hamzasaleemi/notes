@@ -34,7 +34,8 @@ Branch Commands:
 2. git branch -M <name>: Change branch name.
 3. git checkout <branch>: Change branch.
 4. git branch -b <name>: Create new branch.
-5. git branch -d <name>: Delete a branch. Cannot delete current branch.
+5. git branch -d <name>: Delete a local branch. Cannot delete current branch.
+6. git push -d origin <name>: Delete remote branch.
 
 Code Push Commands:
 1. git status: Display state of the code.
