@@ -1,0 +1,55 @@
+PHP:
+Hypertext Preprocessor is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+- PHP code is executed on server side so client side only have the output not the process involved.
+
+Composer:
+It is a dependency manager for PHP that makes it possible to define third-party code packages used by a project that can then be easily installed and updated.
+
+PHP tags:
+1. <?php (PHP opening tag)
+2. ?> (PHP closing tag)
+3. <?= (echo tag)
+
+Comments:
+Multi-Line: /* This is a comment */
+Single Line: // This is a comment
+
+Types of Objects:
+1. null
+2. bool
+3. int
+4. float
+5. string
+6. array
+7. object
+8. callable
+9. resource
+10. void
+
+Class Types:
+1. interface
+2. Class
+3. enum
+
+Relative Class Types:
+1. self
+2. parent
+3. static
+
+Predefined Variables:
+1. $GLOBALS — References all variables available in global scope
+2. $_SERVER — Server and execution environment information
+3. $_GET — Query string variables
+4. $_POST — Form data from HTTP POST requests
+5. $_FILES — HTTP File Upload variables
+6. $_REQUEST — HTTP Request variables
+7. $_SESSION — Session variables
+8. $_ENV — Environment variables
+9. $_COOKIE — HTTP Cookies
+10. $php_errormsg — The previous error message
+11. $http_response_header — HTTP response headers
+12. $argc — The number of arguments passed to script
+13. $argv — Array of arguments passed to script
+
+Constants:
+1. define() or const: declaring Constants
