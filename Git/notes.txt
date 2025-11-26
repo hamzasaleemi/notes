@@ -72,3 +72,15 @@ GitFlow:
 4. Then we create release branch from develop.
 5. Then we create bug branch from release and finally that final release is merged to develop and main.
 6. We create hotfix from main and fix the bug and then merge it with main and develop.
+
+Readme File Formatting:
+1. **Bold Text**
+2. *Italic Text*
+3. ~Cancelled Text~
+4. <sub>Subscript</sub>
+5. <ins>Underline</ins>
+6. > This is a quote.
+7. Here is the code `git status`
+8. ``` this is a code block ```
+9. This is a link [Text to show](https://pagelink.com)
+10. * This is a bullet point.
