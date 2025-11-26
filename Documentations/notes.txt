@@ -4,3 +4,4 @@ Dockerhub: https://hub.docker.com
 Git: https://git-scm.com/docs
 Laravel: https://laravel.com/docs
 PHP: https://www.php.net/manual/en
+Git: https://git-scm.com/docs

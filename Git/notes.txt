@@ -1,5 +1,3 @@
-Documentation: https://git-scm.com/docs
-
 Git:
 Git is a Version Control System. It is a tool that helps to track changes in code.
 
