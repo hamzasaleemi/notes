@@ -13,8 +13,8 @@ It is a dependency manager for PHP that makes it possible to define third-party 
 * `<?=` (echo tag)
 
 ## Comments
-* Multi-Line: /\* This is a comment \*/
-* Single Line: // This is a comment
+* Multi-Line: `/* This is a comment */`
+* Single Line: `// This is a comment`
 
 ## Types of Objects
 * null
