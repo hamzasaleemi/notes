@@ -1,4 +1,6 @@
-# SOLID Principles
+# SOLID Principles Notes
+
+## SOLID Principles
 SOLID is an acronym for five object-oriented design principles that help create maintainable, scalable, and flexible software.
 
 ## Single Responsibility Principle
