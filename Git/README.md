@@ -76,6 +76,9 @@ git config --list
 * We create `hotfix` from `main` and fix the bug and then merge it with `main` and `develop`.
 
 ## Readme File Formatting
+* # \# Heading 1
+* ## \#\# Heading 2
+* ### \#\# Heading 3
 * \*\***Bold Text**\*\*
 * \**Italic Text*\*
 * \~~Cancelled Text~\~
