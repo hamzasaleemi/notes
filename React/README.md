@@ -278,7 +278,7 @@ Used to cache the calculation.
 + `useMemo(function, dependencies)`.
 
 ## Barrel File
-Barrel file is used to export all variables and functions in all subfolder files.
+Barrel file that consolidates and re-exports multiple modules from a single directory, creating a single, convenient entry point for imports.
 ```
 export * from './auth'
 export * from './routes'
