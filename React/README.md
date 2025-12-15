@@ -276,3 +276,51 @@ function MyComponent() {
 ## Memo
 Used to cache the calculation.
 + `useMemo(function, dependencies)`.
+
+## Barrel File
+Barrel file is used to export all variables and functions in all subfolder files.
+```
+export * from './auth'
+export * from './routes'
+```
+Folder Structure:
+```
+utils
+  - auth
+    - index.ts
+  - routes
+    - index.ts
+  - index.ts // Barrel File
+```
+
+## Import Sequence Best Practice
+* React & React-related
+```
+import { useRef, useState } from "react";
+import { useNavigate } from 'react-router-dom';
+```
+* Third-party libraries
+```
+import axios from 'axios';
+import clsx from 'clsx';
+```
+* Internal aliases - contexts, hooks, services, utils
+```
+import { useAuth } from "@/contexts/auth";
+import { authService } from "@/services/auth";
+```
+* Internal aliases - components (UI first, then features)
+```
+import Button from "@/components/ui/button";
+import EmailInput from "@/components/ui/input/email";
+```
+* Types (often last, with `type` keyword)
+```
+import type { UserType } from "@/types";
+import type { RoleType } from "@/types";
+```
+* Styles, assets
+```
+import './styles.css';
+import logo from '@/assets/logo.png';
+```
