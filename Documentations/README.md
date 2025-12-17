@@ -8,4 +8,4 @@
 * **[PHP](https://www.php.net/manual/en)**
 * **[Git](https://git-scm.com/docs)**
 * **[React](https://react.dev/learn)**
-* **[Typescript](https://www.typescriptlang.org/docs/)**
+* **[TypeScript](https://www.typescriptlang.org/docs/)**

@@ -1,4 +1,4 @@
-# Typescript Notes
+# TypeScript Notes
 
 ## Introduction
 TypeScript offers all of JavaScript’s features, and an additional layer on top of these: TypeScript’s type system. The main benefit of TypeScript is that it can highlight unexpected behavior in your code, lowering the chance of bugs.
@@ -14,7 +14,7 @@ TypeScript offers all of JavaScript’s features, and an additional layer on top
 * `symbol`
 * `undefined`
 
-### Typescript
+### TypeScript
 * `any` allow anything
 * `unknown` ensure someone using this type declares what the type is
 * `never` it’s not possible that this type could happen
@@ -100,7 +100,7 @@ function logPoint(p: Point) {
 }
 
 const point = { x: 12, y: 26 };
-logPoint(point); // it will work as Typescript will consider point as Point Type as they are same
+logPoint(point); // it will work as TypeScript will consider point as Point Type as they are same
 
 class VirtualPoint {
   x: number;
@@ -113,5 +113,5 @@ class VirtualPoint {
 }
  
 const newVPoint = new VirtualPoint(13, 56);
-logPoint(newVPoint); // This will work too as Typescript will consider this class Type to be same as Point type.
+logPoint(newVPoint); // This will work too as TypeScript will consider this class Type to be same as Point type.
 ```
