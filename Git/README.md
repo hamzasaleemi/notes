@@ -81,7 +81,7 @@ git config --list
 * ### \#\# Heading 3
 * \*\***Bold Text**\*\*
 * \**Italic Text*\*
-* \~~Cancelled Text~\~
+* \~\~~~Cancelled Text~~\~\~
 * `<sub>`<sub>Subscript</sub>`</sub>`
 * `<ins>`<ins>Underline</ins>`</ins>`
 * > \> This is a quote.
