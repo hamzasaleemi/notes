@@ -133,7 +133,7 @@ By defualt element priority is increased from top to bottom. But we can set `z-i
     * `auto` default value full size of the image.
 
 ## Flexbox
-We have 2 axis main and cross axis. Main axis is the axis of direction of flexbox.
+We have 2 axis main and cross axis. Main axis is the axis of direction of flexbox. Flexbox is used for one-dimensional layout, with rows OR columns.
 * `display: flex;`
 * `flex-direction: row;` Direction of flexbox can be set to `row` (defaul), `row-reverse`, `column` and `column-reverse`
 * `flex-wrap` Specifies whether the flex items should wrap or not. Values can be `nowrap`, `wrap`, or `wrap-reverse`.
@@ -143,6 +143,25 @@ We have 2 axis main and cross axis. Main axis is the axis of direction of flexbo
 * `align-self` Align a single flex item.
 * `flex-gorw` Grow flex item.
 * `flex-shrink` Shrink flex item.
+
+## Grid Layout
+The Grid Layout Module offers a grid-based layout system, with rows and columns. Grid is used for two-dimensional layout, with rows AND columns.
+* `display: grid;`
+* `grid-template-columns` Defines the number and width of the columns in the grid e.g. `10px 10px`, `10% 90%`, `auto auto`, `1fr 2fr`, `repeat(3, 1fr)`
+* `grid-template-rows` Defines the number and height of the rows in the grid e.g. `10px 10px`, `10% 90%`, `auto auto`, `1fr 2fr`, `repeat(3, 1fr)`
+* `grid-template-areas` Defines how to display columns and rows, using named grid items
+* `column-gap` Specifies the gap between grid columns
+* `row-gap` Specifies the gap between grid rows
+* `gap` Shorthand property for `row-gap` and `column-gap`
+* `justify-content` Aligns the grid content when it does not use all available space on the main-axis (horizontally)
+* `align-content` Aligns the grid content when it does not use all available space on the cross-axis (vertically)
+* `place-content` Shorthand property for `align-content` and `justify-content`
+* `grid-column-start` Specifies on which column-line the grid item will start
+* `grid-column-end` Specifies on which column-line the grid item will end
+* `grid-column` Shorthand property for `grid-column-start` and `grid-column-end` e.g. `1 / span 2`
+* `grid-row-start` Specifies on which row-line the grid item will start
+* `grid-row-end` Specifies on which row-line the grid item will end
+* `grid-row` Shorthand property for `grid-row-start` and `grid-row-end` e.g. `1 / span 2`
 
 ## Media Queries
 Helps create websites responsive.
